@@ -1,4 +1,4 @@
-This Noir `lib` is for hashing to a curve bigger than your backend base field (currently default seems to be Grumkin). If you want to hash to a smaller curve it would be more reasonable to leverage `std` library facilities.
+This Noir `lib` is for hashing to a curve bigger than your backend field (currently default seems to be Grumkin). If you want to hash to a smaller curve it would be more reasonable to leverage `std` library facilities.
 
 Exposes standard interface, consisting of: **`hash_to_curve`, `map_to_curve`, and `hash_to_field`**.
 
