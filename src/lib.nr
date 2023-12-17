@@ -264,7 +264,7 @@ fn J81_field_msg_empty() {
 
 #[test]
 fn field_all_empty() {
-    hash_to_field([], []); // testing for smoke in the edge
+    hash_to_field([], []); // testing for smoke in the edge case
 }
 
 #[test]

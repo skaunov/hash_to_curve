@@ -7,3 +7,10 @@ Other suites and features will be added upon demand.
 
 If [the hasher] in your app is used for other purposes or shared -- pay attention to [Domain Separation Variants](https://www.rfc-editor.org/rfc/rfc9380.html#name-domain-separation-for-expan).
 [the hasher]: w.r.t. current limitations it's <https://noir-lang.org/dev/standard_library/cryptographic_primitives/hashes#sha256>
+
+# how to `use`
+In your <./Nargo.toml> file, add it to the `dependencies` section.
+```toml
+[dependencies]
+hash_to_curve = { tag = "v0.1.1", git = "https://github.com/skaunov/hash_to_curve" }
+```
